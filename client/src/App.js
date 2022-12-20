@@ -1,12 +1,11 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'rsuite/dist/rsuite.min.css'; // or 'rsuite/dist/rsuite.min.css'
 import './App.css';
-import Navbartop from './component/ui/Navbar';
 import HomeComponent from './component/Home';
 
 function App() {
   return (
     <>
-      <Navbartop/>
       <HomeComponent/>
     </>
   );

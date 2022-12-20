@@ -1,3 +1,90 @@
 .home-page{
+    height: 100vh;
+    width: 100%;
+    background-color: #0f131a;
+    color: #e9ebf0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway, Hiragino Sans GB, sans-serif;
+}
+.home-ctn{
+    display: flex;
+}
+.logo{
+    width: 35vh;
+}
+.home-txt{
+    width: 30rem;
+    padding: 2rem;
+}
+.title{
+    font-weight: bold;
+    line-height: 60px;
+}
+.sub-title{
+    margin-top: 0.5rem;
+    font-size: 20px;
+}
+.btn-section{
+    margin-top: 1rem;
+    display: flex;
+}
+.btn_1{
+    margin-left: 1.5rem;
+}
+.home-logo{
+    padding: 1rem;
+    /* display: flex;
+    justify-content: center; */
+}
+.home-social{
+    margin-top: 1rem;
+    /* display: flex; */
+    margin-left: 10px;
+}
+.h-icon{
+    /* margin-right: 10px; */
+    font-size: 22px;
+    margin-top: 10px;
+}
+.wallpaper{
+    display: flex;
+    background-color: #0f131a;
+}
+@media only screen and (max-width: 912px){
+    .home-ctn{
+        display: grid;
+    }
+    .home-txt{
+        width: 100%;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .sub-title{
+        font-size: 14px;
+    }
+    .logo{
+        width: 20vh;
+    }
+    .home-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .home-social{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .h-icon{
+        margin-left: 10px;
+    }
+    /* .wallpaper{
+        display: grid;
+    } */
+    .top-level-nav{
+        width: 100%;
+    }
 }
