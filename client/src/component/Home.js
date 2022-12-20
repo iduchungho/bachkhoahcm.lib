@@ -3,8 +3,8 @@ import './styles/Home.css';
 import img from '../img/bk.png';
 import ToplevelNav from './ui/ToplevelNav'
 import { Button } from "rsuite";
-import { FaDiscord } from 'react-icons/fa';
-import { BsFacebook } from 'react-icons/bs';
+// import { FaDiscord } from 'react-icons/fa';
+// import { BsFacebook } from 'react-icons/bs';
 export default function HomeComponent() {
     return (
         <div className="wallpaper">
@@ -17,8 +17,8 @@ export default function HomeComponent() {
                             đại cương và chuyên ngành của tất cả các khoa trong Trường đại học Bách khoa - ĐHQGHCM
                         </p>
                         <div className="btn-section">
-                            <Button appearance="primary">Getting started</Button>
-                            <Button appearance="ghost" className="btn_1">Component</Button>
+                            <Button appearance="primary">Tài liệu</Button>
+                            <Button appearance="ghost" className="btn_1">Về chúng tôi</Button>
                         </div>
                     </div>
                     <div className="home-logo">
@@ -28,10 +28,10 @@ export default function HomeComponent() {
                             src={img}
                         />
                     </div>
-                    <div className="home-social">
+                    {/* <div className="home-social">
                         <div className="h-icon"><FaDiscord /></div>
                         <div className="h-icon"><BsFacebook /></div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

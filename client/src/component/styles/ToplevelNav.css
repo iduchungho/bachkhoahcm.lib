@@ -4,11 +4,38 @@
     top: 0;
     text-align: center;
 }
-@media (max-width: 768px){
+.ico-btn{
+    color: white;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+.logo-ico{
+    width: 2rem;
+}
+@media (max-width: 767px){
     .top-level-nav {
         padding-left: 10px;
         text-align: left;
         display: flex;
+        width: 100%;
+        height: 48px;
+        margin-top: 10px;
+    }
+    .top-level-nav-header{
+        display: flex;
+        margin-left: auto;
+    }
+    .ico-btn{
+        margin-top: 0;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .logo-ico{
+        width: 3rem;
     }
 }
 @media (min-width: 768px){
