@@ -53,7 +53,7 @@
     display: flex;
     background-color: #0f131a;
 }
-@media only screen and (max-width: 912px){
+@media only screen and (max-width: 768px){
     .home-ctn{
         display: grid;
     }
@@ -87,5 +87,8 @@
     } */
     .top-level-nav{
         width: 100%;
+    }
+    .home-page{
+        padding-left: 0;
     }
 }
