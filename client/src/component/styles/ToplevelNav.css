@@ -20,6 +20,7 @@
         width: 100%;
         height: 48px;
         margin-top: 10px;
+        background-color: #0f131a;
     }
     .top-level-nav-header{
         display: flex;
