@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"server/routes"
+)
 
-func main(){
-	fmt.Printf("Starting");
+func main() {
+	fmt.Printf(routes.Init())
 }
