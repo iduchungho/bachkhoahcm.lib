@@ -1,5 +1,6 @@
 import React from 'react';
-import { Divider } from 'rsuite';
+import { Route, Routes } from 'react-router-dom';
+import Overview from './pages/Overviews';
 import './styles/Documentation.css';
 import Sidenavbar from './ui/Sidenav';
 export default function Documentation() {
@@ -11,14 +12,9 @@ export default function Documentation() {
                     <div className='document___ctn'>
                         <div className='main-container'>
                             <div className='document-nav-content'>
-                                <div className='markdown'>
-                                    <h1 className='page-heading'>Tài liệu</h1>
-                                    <p>Tất cả tài liệu của từng chủ đề cho từng khoa trong Thư Viện Tài Liệu Bách Khoa</p>
-                                    <Divider />
-                                </div>
-                                <div className='component-content'>
-
-                                </div>
+                                <Routes>
+                                    <Route path = '' element = {<Overview/>}/>
+                                </Routes>
                             </div>
                         </div>
                     </div>

@@ -17,8 +17,8 @@ export default function HomeComponent() {
                             đại cương và chuyên ngành của tất cả các khoa trong Trường đại học Bách khoa - ĐHQGHCM
                         </p>
                         <div className="btn-section">
-                            <Button appearance="primary" href="/component/doc">Tài liệu</Button>
-                            <Button appearance="ghost" className="btn_1">Về chúng tôi</Button>
+                            <Button appearance="primary" href="/doc">Tài liệu</Button>
+                            <Button appearance="ghost" className="btn_1" href="/aboutus">Về chúng tôi</Button>
                         </div>
                     </div>
                     <div className="home-logo">

@@ -21,8 +21,8 @@ function ToplevelNav() {
             </a>
             <div className='top-level-nav-header'>
                 <IconButton icon={<BiSearch />} appearance="subtle" circle className="ico-btn" />
-                <IconButton icon={<FiBookOpen />} appearance="subtle" circle className="ico-btn" />
-                <IconButton icon={<TiDocumentText />} appearance="subtle" circle className="ico-btn" href="/component/doc" />
+                <IconButton icon={<FiBookOpen />} appearance="subtle" circle className="ico-btn" href="/aboutus"/>
+                <IconButton icon={<TiDocumentText />} appearance="subtle" circle className="ico-btn" href="/doc" />
                 <IconButton icon={<AiFillGithub />} appearance="subtle" circle className="ico-btn" />
                 <IconButton icon={<FaDiscord />} appearance="subtle" circle className="ico-btn" />
                 <IconButton icon={<BsFacebook />} appearance="subtle" circle className="ico-btn" />

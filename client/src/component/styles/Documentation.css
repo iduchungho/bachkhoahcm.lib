@@ -11,9 +11,9 @@
 .document___ctn{
     padding: 20px 210px 20px 20px;;
 }
-.page-heading{
+/* .page-heading{
     font-size: 28px;
-}
+} */
 @media (max-width: 767px){
     .docu-wall{
         padding-top: 60px;
