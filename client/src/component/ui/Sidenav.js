@@ -12,10 +12,10 @@ const FacultyNav = ({ active, onSelect, ...props }) => {
             </div>
             {/* <Divider/> */}
             <div className="panel"># KH & KT Máy Tính</div>
-            <Nav.Item eventKey="CS" >
+            <Nav.Item eventKey="CS" href="/doc/cse#cs">
                 Khoa học máy tính
             </Nav.Item>
-            <Nav.Item eventKey="CE">Kỹ thuật máy tính</Nav.Item>
+            <Nav.Item eventKey="CE" href="/doc/cse#ce">Kỹ thuật máy tính</Nav.Item>
 
             <div className="panel"># Cơ khí</div>
             <Nav.Item eventKey="KCK">Kỹ thuật cơ khí</Nav.Item>

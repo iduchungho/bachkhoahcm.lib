@@ -10,7 +10,16 @@ export default function Overview(){
                 <Divider />
             </div>
             <div className='component-content'>
-
+                <ul>
+                    <li>General</li>
+                    <li>
+                        <a href = '/doc/cse'>Khoa học và kỹ thuật máy tính</a>
+                        <ul>
+                            <li><a href="/doc/cse#cs">Khoa học máy tính</a></li>
+                            <li><a href="/doc/cse#ce">Kỹ thuật máy tính</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </>
     );
