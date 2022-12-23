@@ -1,10 +1,12 @@
 package main
 
 import (
-	"fmt"
-	"server/routes"
+	"server/services"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
-	fmt.Printf(routes.Init())
+	router := gin.Default()
+	router.GET("/docs", services.GetDocument)
+	router.Run("localhost:8080")
 }
