@@ -26,11 +26,12 @@
 } */
 @media (max-width: 767px){
     .docu-wall{
-        padding-top: 60px;
+        padding-top: 68px;
         padding-left: 0;
     }
     .docu-ctn{
-        padding: 0;
+        padding-top: 0;
+        height: calc(100vh - 68px);
     }
     .document___ctn {
         padding: 20px 60px 20px 20px;
