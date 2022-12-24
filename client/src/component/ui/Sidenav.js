@@ -12,22 +12,20 @@ const FacultyNav = ({ active, onSelect, ...props }) => {
             </div>
             {/* <Divider/> */}
             <div className="panel"># KH & KT Máy Tính</div>
-            <Nav.Item eventKey="CS" href="/doc/cse#cs">
-                Khoa học máy tính
-            </Nav.Item>
+            <Nav.Item eventKey="CS" href="/doc/cse#cs">Khoa học máy tính</Nav.Item>
             <Nav.Item eventKey="CE" href="/doc/cse#ce">Kỹ thuật máy tính</Nav.Item>
 
             <div className="panel"># Cơ khí</div>
-            <Nav.Item eventKey="KCK">Kỹ thuật cơ khí</Nav.Item>
-            <Nav.Item eventKey="CDT">Kỹ thuật cơ điện tử</Nav.Item>
-            <Nav.Item eventKey="DM">Kỹ thuật dệt may</Nav.Item>
-            <Nav.Item eventKey="CNNL">Công nghệ nhiệt lạnh</Nav.Item>
-            <Nav.Item eventKey="QKCCU">Quản lý chuỗi cung ứng</Nav.Item>
+            <Nav.Item eventKey="KCK" href="/doc/mechanical#ktck">Kỹ thuật cơ khí</Nav.Item>
+            <Nav.Item eventKey="CDT" href="/doc/mechanical#cdt">Kỹ thuật cơ điện tử</Nav.Item>
+            <Nav.Item eventKey="DM" href="/doc/mechanical#dm">Kỹ thuật dệt may</Nav.Item>
+            <Nav.Item eventKey="CNNL" href="/doc/mechanical#cnnl">Công nghệ nhiệt lạnh</Nav.Item>
+            <Nav.Item eventKey="QKCCU" href="/doc/mechanical#qlccu">Quản lý chuỗi cung ứng</Nav.Item>
 
             <div className="panel"># Điện - điện tử</div>
-            <Nav.Item eventKey="TDH">Điều khiển và tự động hóa</Nav.Item>
-            <Nav.Item eventKey="KTD">Kỹ thuật điện</Nav.Item>
-            <Nav.Item eventKey="DTVT">Kỹ thuật điện tử - Viễn thông</Nav.Item>
+            <Nav.Item eventKey="TDH" href="/doc/electrical#dktd">Điều khiển và tự động hóa</Nav.Item>
+            <Nav.Item eventKey="KTD" href="/doc/electrical#ktd">Kỹ thuật điện</Nav.Item>
+            <Nav.Item eventKey="DTVT" href="/doc/electrical#dtvt">Kỹ thuật điện tử - Viễn thông</Nav.Item>
             
             <div className="panel"># Xây dựng</div>
             <Nav.Item eventKey="XDDD">Kỹ thuật xây dựng dân dụng</Nav.Item>

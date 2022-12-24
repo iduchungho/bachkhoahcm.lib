@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import CSE from './pages/CSE';
+import ElectricalComponent from './pages/Electrical';
+import MechanicalComponent from './pages/Mechanical';
 import Overview from './pages/Overviews';
 import './styles/Documentation.css';
 import Sidenavbar from './ui/Sidenav';
@@ -16,6 +18,8 @@ export default function Documentation() {
                                 <Routes>
                                     <Route path = '/' element = {<Overview/>}/>
                                     <Route path = 'cse' element = {<CSE/>}/>
+                                    <Route path = 'mechanical' element = {<MechanicalComponent/>}/>
+                                    <Route path = 'electrical' element = {<ElectricalComponent/>}/>
                                 </Routes>
                             </div>
                         </div>

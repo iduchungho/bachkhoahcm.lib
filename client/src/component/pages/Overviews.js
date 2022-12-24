@@ -23,11 +23,11 @@ export default function Overview(){
                     <li>
                         <a href='/doc/cse' className="f__name">Khoa cơ khí</a>
                         <ul>
-                            <li><a href="/doc/cse#cs">Kỹ thuật cơ khí</a></li>
-                            <li><a href="/doc/cse#ce">Kỹ thuật cơ điện tử</a></li>
-                            <li><a href="/doc/cse#ce">Kỹ thuật nhiệt lạnh</a></li>
-                            <li><a href="/doc/cse#ce">Kỹ thuật dệt may</a></li>
-                            <li><a href="/doc/cse#ce">Quản lý chuỗi cung ứng</a></li>
+                            <li><a href="/doc/mechanical#ktck">Kỹ thuật cơ khí</a></li>
+                            <li><a href="/doc/mechanical#cdt">Kỹ thuật cơ điện tử</a></li>
+                            <li><a href="/doc/mechanical#cnnl">Kỹ thuật nhiệt lạnh</a></li>
+                            <li><a href="/doc/mechanical#dm">Kỹ thuật dệt may</a></li>
+                            <li><a href="/doc/mechanical#qlccu">Quản lý chuỗi cung ứng</a></li>
                         </ul>
                     </li>
 
@@ -56,9 +56,9 @@ export default function Overview(){
                     <li>
                         <a href='/doc/cse' className="f__name">Điện - Điện tử</a>
                         <ul>
-                            <li><a href="/doc/cse#cs">Kỹ thuật điều khiển và tự động hóa</a></li>
-                            <li><a href="/doc/cse#ce">Kỹ thuật Điện</a></li>
-                            <li><a href="/doc">Kỹ thuật điện tử - viễn thông</a></li>
+                            <li><a href="/doc/electrical#dktd">Kỹ thuật điều khiển và tự động hóa</a></li>
+                            <li><a href="/doc/electrical#ktd">Kỹ thuật Điện</a></li>
+                            <li><a href="/doc/electrical#dtvt">Kỹ thuật điện tử - viễn thông</a></li>
                         </ul>
                     </li>
 
