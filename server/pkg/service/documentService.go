@@ -2,7 +2,7 @@ package service
 
 import (
 	"net/http"
-	"server/model"
+	"server/pkg/model"
 
 	"github.com/gin-gonic/gin"
 )
