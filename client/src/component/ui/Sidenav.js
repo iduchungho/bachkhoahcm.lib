@@ -2,13 +2,21 @@ import React, { useState } from "react";
 import '../styles/Sidenav.css';
 import { Nav, Col } from 'rsuite';
 import { TiDocumentText } from 'react-icons/ti';
+import bkimg from '../../img/bk.png';
 
 
 const FacultyNav = ({ active, onSelect, ...props }) => {
     return (
         <Nav {...props} vertical activeKey={active} onSelect={onSelect} style={{ width: 230 }}>
             <div className="header">
-                <TiDocumentText /><span className="header-txt">Tài liệu</span>
+                <TiDocumentText /><span className="header-txt">Tài liệu Bách Khoa</span>
+            </div>
+            <div className="logo-ctn">
+                <img
+                    src={bkimg}
+                    alt='logo'
+                    className="bk-logo-sidenav"
+                />
             </div>
             {/* <Divider/> */}
             <div className="panel"># KH & KT Máy Tính</div>
@@ -26,7 +34,7 @@ const FacultyNav = ({ active, onSelect, ...props }) => {
             <Nav.Item eventKey="TDH" href="/doc/electrical#dktd">Điều khiển và tự động hóa</Nav.Item>
             <Nav.Item eventKey="KTD" href="/doc/electrical#ktd">Kỹ thuật điện</Nav.Item>
             <Nav.Item eventKey="DTVT" href="/doc/electrical#dtvt">Kỹ thuật điện tử - Viễn thông</Nav.Item>
-            
+
             <div className="panel"># Xây dựng</div>
             <Nav.Item eventKey="XDDD">Kỹ thuật xây dựng dân dụng</Nav.Item>
             <Nav.Item eventKey="XDGT">KT Xây dựng công trình GT</Nav.Item>
@@ -74,7 +82,7 @@ const FacultyNav = ({ active, onSelect, ...props }) => {
         </Nav>
     );
 };
-export default function Sidenavbar(){
+export default function Sidenavbar() {
     const [active, setActive] = useState('home');
     return (
         <div className="sidebar">
