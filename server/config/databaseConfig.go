@@ -36,5 +36,6 @@ func DatabaseConection() {
 	}
 	db.AutoMigrate(&model.User{})
 	DB = db
+	fmt.Println("Database Connected")
 	
 }
