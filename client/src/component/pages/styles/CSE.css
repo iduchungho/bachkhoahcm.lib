@@ -5,3 +5,28 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
+.course-table{
+    width: 100%;
+    border-collapse: collapse;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.course-table>tr>th{
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+}
+.course-table>tr>td{
+    padding: 5px;
+}
+#c-tb th ,  #c-tb td {
+    border: 1px solid #3c3f43;
+    padding: 8px;
+}
+@media (max-width: 768px){
+    .page-heading {
+        line-height: 3rem;
+        padding-bottom: 10px;
+    }
+}

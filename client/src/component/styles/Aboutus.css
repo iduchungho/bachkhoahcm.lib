@@ -1,0 +1,37 @@
+.aboutus-paper{
+    padding-left: 64px;
+}
+
+.abus-wallpaper{
+    font-family: Raleway, Hiragino Sans GB,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.abus-ctn{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.abus-txt{
+    padding-top: 20px;
+    font-family: Raleway, Hiragino Sans GB,sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .aboutus-paper{
+        padding: 0;
+    }
+    .abus-ctn{
+        padding-top: 20vh;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .abus-wallpaper{
+        font-size: 20px;
+    }
+    .abus-txt{
+        font-size: 13px;
+    }
+}

@@ -7,6 +7,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
 import { BsFacebook } from 'react-icons/bs';
 import { TiDocumentText } from 'react-icons/ti';
+import { BiNews } from 'react-icons/bi';
 import bkicon from '../../img/favicon.ico';
 import { FACEBOOK, GITHUB } from "../utils/link.utils";
 
@@ -24,6 +25,7 @@ function ToplevelNav() {
                 <IconButton icon={<BiSearch />} appearance="subtle" circle className="ico-btn" />
                 <IconButton icon={<FiBookOpen />} appearance="subtle" circle className="ico-btn" href="/aboutus"/>
                 <IconButton icon={<TiDocumentText />} appearance="subtle" circle className="ico-btn" href="/doc" />
+                <IconButton icon={<BiNews/>} appearance="subtle" circle className="ico-btn" href="/news" />
                 <IconButton icon={<AiFillGithub />} appearance="subtle" circle className="ico-btn" href={GITHUB}/>
                 <IconButton icon={<FaDiscord />} appearance="subtle" circle className="ico-btn" />
                 <IconButton icon={<BsFacebook />} appearance="subtle" circle className="ico-btn" href={FACEBOOK}/>
