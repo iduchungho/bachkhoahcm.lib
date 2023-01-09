@@ -33,7 +33,7 @@ export default function CSE(){
                 <table className="course-table" id="c-tb">
                     <tr>
                         <th>Tên môn học</th>
-                        <th>MSMH</th>
+                        <th>Mã số môn học</th>
                         <th>Tín chỉ</th>
                     </tr>
                     <tr>
@@ -56,20 +56,11 @@ export default function CSE(){
                         <td>MT2013</td>
                         <td>4</td>
                     </tr>
-                    <tr>
-                        <td>Nhập môn điện toán</td>
-                        <td>CO1005</td>
-                        <td>3</td>
-                    </tr>
+
                     <tr>
                         <td>Vật lý 1</td>
                         <td>PH1003</td>
                         <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Hóa đại cương</td>
-                        <td>CH1003</td>
-                        <td>3</td>
                     </tr>
                     <tr>
                         <td>Thí nghiệm vật lý</td>
@@ -77,13 +68,8 @@ export default function CSE(){
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Cấu trúc rời rạc cho khoa học máy tính</td>
-                        <td>CO1007</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Mô hình hóa toán học</td>
-                        <td>CO2011</td>
+                        <td>Hóa đại cương</td>
+                        <td>CH1003</td>
                         <td>3</td>
                     </tr>
                     <tr>
@@ -116,6 +102,21 @@ export default function CSE(){
                         <td>SP1039</td>
                         <td>2</td>
                     </tr>
+                    <tr>
+                        <td>Cấu trúc rời rạc cho khoa học máy tính</td>
+                        <td>CO1007</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Mô hình hóa toán học</td>
+                        <td>CO2011</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Nhập môn điện toán</td>
+                        <td>CO1005</td>
+                        <td>3</td>
+                    </tr>
                 </table>
             </div>
             <h4 id='ce' className="cs-title">Kỹ thuật máy tính</h4>
@@ -124,58 +125,89 @@ export default function CSE(){
                 <table className="course-table" id="c-tb">
                     <tr>
                         <th>Tên môn học</th>
-                        <th>MSMH</th>
+                        <th>Mã số môn học</th>
                         <th>Tín chỉ</th>
                     </tr>
                     <tr>
-                        <td>Alfreds Futterkiste</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
+                        <td>Giải tích 1</td>
+                        <td>MT1003</td>
+                        <td>4</td>
                     </tr>
                     <tr>
-                        <td>Berglunds snabbköp</td>
-                        <td>Christina Berglund</td>
-                        <td>Sweden</td>
+                        <td>Giải tích 2</td>
+                        <td>MT1005</td>
+                        <td>4</td>
                     </tr>
                     <tr>
-                        <td>Centro comercial Moctezuma</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
+                        <td>Đại số tuyến tính</td>
+                        <td>MT1007</td>
+                        <td>3</td>
                     </tr>
                     <tr>
-                        <td>Ernst Handel</td>
-                        <td>Roland Mendel</td>
-                        <td>Austria</td>
+                        <td>Xác suất và thống kê</td>
+                        <td>MT2013</td>
+                        <td>4</td>
+                    </tr>
+
+                    <tr>
+                        <td>Vật lý 1</td>
+                        <td>PH1003</td>
+                        <td>4</td>
                     </tr>
                     <tr>
-                        <td>Island Trading</td>
-                        <td>Helen Bennett</td>
-                        <td>UK</td>
+                        <td>Thí nghiệm vật lý</td>
+                        <td>PH1007</td>
+                        <td>1</td>
                     </tr>
                     <tr>
-                        <td>Königlich Essen</td>
-                        <td>Philip Cramer</td>
-                        <td>Germany</td>
+                        <td>Hóa đại cương</td>
+                        <td>CH1003</td>
+                        <td>3</td>
                     </tr>
                     <tr>
-                        <td>Laughing Bacchus Winecellars</td>
-                        <td>Yoshi Tannamuri</td>
-                        <td>Canada</td>
+                        <td>Pháp luật Việt Nam đại cương</td>
+                        <td>SP1007</td>
+                        <td>2</td>
                     </tr>
                     <tr>
-                        <td>Magazzini Alimentari Riuniti</td>
-                        <td>Giovanni Rovelli</td>
-                        <td>Italy</td>
+                        <td>Triết học Mác Lênin</td>
+                        <td>SP1031</td>
+                        <td>3</td>
                     </tr>
                     <tr>
-                        <td>North/South</td>
-                        <td>Simon Crowther</td>
-                        <td>UK</td>
+                        <td>Kinh tế chính trị Mác - Lênin</td>
+                        <td>SP1033</td>
+                        <td>2</td>
                     </tr>
                     <tr>
-                        <td>Paris spécialités</td>
-                        <td>Marie Bertrand</td>
-                        <td>France</td>
+                        <td>Chủ nghĩa xã hội khoa học</td>
+                        <td>SP1035</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Lịch sử Đảng Cộng Sản Việt Nam</td>
+                        <td>SP1037</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Tư tưởng Hồ Chí Minh</td>
+                        <td>SP1039</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Cấu trúc rời rạc cho khoa học máy tính</td>
+                        <td>CO1007</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Mô hình hóa toán học</td>
+                        <td>CO2011</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Nhập môn điện toán</td>
+                        <td>CO1005</td>
+                        <td>3</td>
                     </tr>
                 </table>
             </div>

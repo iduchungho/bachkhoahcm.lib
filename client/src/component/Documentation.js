@@ -5,7 +5,7 @@ import ElectricalComponent from './pages/Electrical';
 import MechanicalComponent from './pages/Mechanical';
 import Overview from './pages/Overviews';
 import './styles/Documentation.css';
-import Sidenavbar from './ui/Sidenav';
+import Sidenavbar from './Sidenav';
 export default function Documentation() {
     return (
         <>
