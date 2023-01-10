@@ -12,6 +12,36 @@
 .logo-ico{
     width: 2rem;
 }
+
+.login-btn{
+    position: fixed;
+    right: 20px;
+    top: 15px;
+}
+.login-form{
+    width: 30rem;
+}
+.login-btn2{
+    width: 100%;
+}
+.width-100{
+    width: 100%;
+}
+.sp-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: bold;
+}
+.sp-sub-title{
+    font-size: 14px;
+    color: #606770;
+}
+.user-avt{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
 @media (max-width: 767px){
     .top-level-nav {
         padding-left: 10px;
@@ -31,17 +61,24 @@
     }
     .ico-btn{
         margin-top: 0;
-        font-size: 14px;
+        font-size: 22px;
         display: flex;
         justify-content: center;
         align-items: center;
         /* margin-right: 10px;
         margin-top: 10px; */
-        height: 34px;
-        width: 34px;
+        /* height: 34px;
+        width: 34px; */
     }
     .logo-ico{
         width: 3rem;
+    }
+    .login-btn{
+        top: 68px;
+        right: 10px;
+    }
+    .user-avt{
+        top: 68px;
     }
 }
 @media (min-width: 768px){
