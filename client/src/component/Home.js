@@ -1,8 +1,8 @@
 import React from "react";
 import './styles/Home.css';
+import { Button } from "rsuite";
 import img from '../img/bk.png';
 // import ToplevelNav from './ui/ToplevelNav'
-import { Button } from "rsuite";
 // import { FaDiscord } from 'react-icons/fa';
 // import { BsFacebook } from 'react-icons/bs';
 export default function HomeComponent() {

@@ -1,11 +1,15 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+
+//for css files
+import './styles/Documentation.css';
+
+//for local components
+import Sidenavbar from './Sidenav';
 import CSE from './pages/CSE';
+import Overview from './pages/Overviews';
 import ElectricalComponent from './pages/Electrical';
 import MechanicalComponent from './pages/Mechanical';
-import Overview from './pages/Overviews';
-import './styles/Documentation.css';
-import Sidenavbar from './Sidenav';
 export default function Documentation() {
     return (
         <>

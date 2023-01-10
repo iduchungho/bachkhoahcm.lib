@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+
+//for css styles
 import './styles/Sidenav.css';
 import { Nav, Col } from 'rsuite';
+
+// for icon support in local component
 import { TiDocumentText } from 'react-icons/ti';
 import bkimg from '../img/bk.png';
-
 
 const FacultyNav = ({ active, onSelect, ...props }) => {
     return (
